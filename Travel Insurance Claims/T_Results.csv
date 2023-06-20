@@ -1,0 +1,11 @@
+,Model Name,True_Positive,False_Negative,False_Positive,True_Negative,Accuracy,Precision,Recall,F1 Score,Specificity,MCC,ROC_AUC_Score,Balanced Accuracy
+0,LogisticRegression(),0,212,3,14263,0.985,0.0,0.0,0.0,1.0,-0.002,0.49989485489976165,0.5
+1,DecisionTreeClassifier(),9,203,237,14029,0.97,0.037,0.042,0.039,0.983,0.024,0.5129199521755117,0.512
+2,RandomForestClassifier(),0,212,0,14266,0.985,,0.0,0.0,1.0,,0.5,0.5
+3,ExtraTreesClassifier(),0,212,3,14263,0.985,0.0,0.0,0.0,1.0,-0.002,0.49989485489976165,0.5
+4,KNeighborsClassifier(),1,211,6,14260,0.985,0.143,0.005,0.009,1.0,0.023,0.5021482003655611,0.502
+5,SVC(probability=True),0,212,0,14266,0.985,,0.0,0.0,1.0,,0.5,0.5
+6,BaggingClassifier(n_estimators=100),0,212,19,14247,0.984,0.0,0.0,0.0,0.999,-0.004,0.4993340810318239,0.5
+7,GradientBoostingClassifier(),9,203,151,14115,0.976,0.056,0.042,0.048,0.989,0.037,0.515934111715677,0.516
+8,LGBMClassifier(),1,211,5,14261,0.985,0.167,0.005,0.009,1.0,0.026,0.5021832487323072,0.502
+9,GaussianNB(),49,163,591,13675,0.948,0.077,0.231,0.115,0.959,0.111,0.5948524529888982,0.595
